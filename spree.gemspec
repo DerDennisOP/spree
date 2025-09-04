@@ -1,10 +1,11 @@
 # encoding: UTF-8
-require_relative 'core/lib/spree/core/version.rb'
+# require_relative 'core/lib/spree/core/version.rb'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree'
-  s.version     = Spree.version
+  # s.version     = Spree.version
+  s.version     = '5.2.0.alpha'
   s.authors     = ['Sean Schofield', 'Spark Solutions Sp. z o.o.', 'Vendo Connect Inc.']
   s.email       = 'hello@spreecommerce.org'
   s.summary     = 'A complete open source e-commerce solution'
